@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep learning on Desh Raj</title>
+    <link>https://desh2608.github.io/tags/deep-learning/</link>
+    <description>Recent content in Deep learning on Desh Raj</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 31 Jul 2018 18:45:15 +0530</lastBuildDate>
+    
+	<atom:link href="https://desh2608.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Theory of Deep Learning: An Illustration with Embeddings</title>
+      <link>https://desh2608.github.io/post/deep-learning-theory-5/</link>
+      <pubDate>Tue, 31 Jul 2018 18:45:15 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/deep-learning-theory-5/</guid>
+      <description>We have discussed several aspects of deep learning theory, ranging from optimization and generalization guarantees to role of depth and generative models. In this final post of this series, I will illustrate how theory can motivate simple solutions to problems, which can then outperform complex techniques. For this, we will consider a field where deep learning has done exceptionally well, namely, word and sentence embeddings.
+If you need a refresher on word embeddings, I have previously explained them, along with the most popular methods, in this post.</description>
+    </item>
+    
+    <item>
+      <title>Theory of Deep Learning: Generative Models</title>
+      <link>https://desh2608.github.io/post/deep-learning-theory-4/</link>
+      <pubDate>Mon, 30 Jul 2018 23:39:37 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/deep-learning-theory-4/</guid>
+      <description>Till now, in this series based on the ICML 2018 tutorial on &amp;ldquo;Toward a Theory for Deep Learning&amp;rdquo; by Prof. Sanjeev Arora, we have limited our discussion to the theory of supervised discriminative neural models, i.e., those models which learn the conditional probability $P(y|x)$ from a set of given $(x_i,y_i)$ samples. In particular, we saw how deep networks find good solutions, why they generalize well despite being overparametrized, and what role depth plays in all of this.</description>
+    </item>
+    
+    <item>
+      <title>Theory of Deep Learning: Role of Depth</title>
+      <link>https://desh2608.github.io/post/deep-learning-theory-3/</link>
+      <pubDate>Sat, 28 Jul 2018 23:00:20 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/deep-learning-theory-3/</guid>
+      <description>In the previous posts of this series, we have looked at how stochastic gradient descent is able to find a good solution despite the nonconvex objective, and why overparametrized neural networks generalize so well. In this post, we will look at the titular property of deep networks, namely depth, and what role they play in the learning ability of the model.
+An ideal result in this regard would be if we can show that there exists a class of natural learning problems (recall the idea of a &amp;ldquo;natural&amp;rdquo; problem from the first post) which cannot be solved with depth $d$ neural networks, but are solvable with at least one model of depth $d+1$.</description>
+    </item>
+    
+    <item>
+      <title>Theory of Deep Learning: Generalization</title>
+      <link>https://desh2608.github.io/post/deep-learning-theory-2/</link>
+      <pubDate>Fri, 27 Jul 2018 13:45:11 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/deep-learning-theory-2/</guid>
+      <description>In Part 1 of this series, based on the ICML 2018 tutorial on &amp;ldquo;Toward a Theory for Deep Learning&amp;rdquo; by Prof. Sanjeev Arora, we looked at several aspects of optimization of the nonconvex objective function that is a part of most deep learning models. In this article, we will turn our attention to another important aspect, namely generalization.
+A distinguishing feature of most modern deep learning architectures is that they generalize to test cases exceptionally well, even though the number of parameters is far greater than the number of training samples.</description>
+    </item>
+    
+    <item>
+      <title>Theory of Deep Learning: Optimization</title>
+      <link>https://desh2608.github.io/post/deep-learning-theory-1/</link>
+      <pubDate>Thu, 26 Jul 2018 11:15:18 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/deep-learning-theory-1/</guid>
+      <description>I only just got around to watching the ICML 2018 tutorial on &amp;ldquo;Toward a Theory for Deep Learning&amp;rdquo; by Prof. Sanjeev Arora. In this and the next few posts, I will discuss the subject in some detail, including the referenced papers and blogs. Very conveniently, the talk itself was divided into 5 parts, and I will structure this series accordingly.
+At the outset, we should understand that a number of important concepts in deep learning are already shaped by optimization theory.</description>
+    </item>
+    
+    <item>
+      <title>Waldo: A system for optical character recognition</title>
+      <link>https://desh2608.github.io/project/waldo-ocr/</link>
+      <pubDate>Tue, 03 Jul 2018 16:56:46 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/project/waldo-ocr/</guid>
+      <description>It is an ongoing project under Prof. Daniel Povey to develop an Optical Character Recognition system that is robust on focused as well as incidental text. My contributions are:
+ Experimenting with the ICDAR 2015 Robust Reading Challenge dataset by modifying training script. A visualization and compression module for segmentation mask overlayed on images.  The system consists of a modified UNet first proposed in this paper.</description>
+    </item>
+    
+    <item>
+      <title>Irony detection in tweets</title>
+      <link>https://desh2608.github.io/project/irony-tweet/</link>
+      <pubDate>Tue, 20 Mar 2018 17:00:16 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/project/irony-tweet/</guid>
+      <description>The task was to recognize whether a tweet has irony or not - binary classification. In essence, we identified 2 aspects that were essential to identify irony in tweets:
+ Semantic interaction between text and hashtags, modeled using holographic embeddings (or circular cross-correlations). World knowledge about irony in text, obtained through transfer learning from DeepMoji.  We were able to obtain a validation accuracy of 69%, although the model performed poorly in the final test phase.</description>
+    </item>
+    
+    <item>
+      <title>Unsupervised Approaches for NMT</title>
+      <link>https://desh2608.github.io/post/unsupervised-approaches-for-nmt/</link>
+      <pubDate>Thu, 14 Dec 2017 13:39:30 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/unsupervised-approaches-for-nmt/</guid>
+      <description>Translation is one of those tasks in language where the arrival of deep learning systems, and in particular sequence-to-sequence, has been something like a boon. In less than 4 years since the first paper on Neural Machine Translation, software giants such as Google and Microsoft have already announced that their translation systems have almost completely shifted from statistical to neural. Gone are the days when researchers mulled over complex word and phrase alignment techniques, and yet fell short on several language combinations.</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning for Multimodal Systems</title>
+      <link>https://desh2608.github.io/post/deep-learning-multimodal-systems/</link>
+      <pubDate>Thu, 09 Nov 2017 13:38:58 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/deep-learning-multimodal-systems/</guid>
+      <description>When I was browsing through research groups for my grad school applications, I came across some interesting applications of new deep learning methods in a multimodal setting. ‘Multimodal,’ as the name suggests, refers to any system involving two or more modes of input or output. For example, an image captioning system provides images as input and expects a textual output. Similarly, speech-to-text, descriptive art, video summarization, etc., are all examples of multimodal objectives.</description>
+    </item>
+    
+    <item>
+      <title>The Best Papers at ICLR 2017</title>
+      <link>https://desh2608.github.io/post/best-papers-at-iclr-17/</link>
+      <pubDate>Sun, 15 Oct 2017 13:38:17 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/best-papers-at-iclr-17/</guid>
+      <description>The International Conference on Learning Representations (ICLR) has evolved into the deep learning conference over the last few years, and with its open review system, it is not difficult to understand why. I was recently going through some of the papers accepted at this year’s ICLR, especially the 3 that were awarded the Best Paper award. In this article, I will try to summarize these 3 papers in simple words, and hopefully get an idea about what’s hot in deep learning.</description>
+    </item>
+    
+    <item>
+      <title>The Last 3 Years in Text Classification</title>
+      <link>https://desh2608.github.io/post/last-3-years-in-text-classification/</link>
+      <pubDate>Mon, 02 Oct 2017 12:49:14 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/last-3-years-in-text-classification/</guid>
+      <description>While working on my undergrad thesis on relation classification of biomedical text using deep learning methods, I quickly hacked together models in Tensorflow that combined convolutional and recurrent layers in various combinations. While some of these “network architectures” worked superbly (even surpassing state-of-the-art results), I had no clue what was happening inside the model. To gain such an intuition, I read about 20 recent papers on text classification (starting with the first “CNN for sentence classification” paper by Yoon Kim) over the course of a week.</description>
+    </item>
+    
+    <item>
+      <title>Understanding Word Vectors</title>
+      <link>https://desh2608.github.io/post/understanding-word-vectors/</link>
+      <pubDate>Fri, 29 Sep 2017 11:12:55 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/understanding-word-vectors/</guid>
+      <description>This article is a formal representation of my understanding of vector semantics, from course notes and reading reference papers and chapters from Jurafsky’s SLP book. I will be talking about sparse and dense vector semantics, including SVD, skip-gram, and GloVe. In many places, I will try to explain the ideas in language rather than equations (but I’ll provide links to derivations and stuff wherever it is absolutely essential, which is actually everywhere!</description>
+    </item>
+    
+    <item>
+      <title>Learning local and global context using a convolutional recurrent network model for relation classification in biomedical text</title>
+      <link>https://desh2608.github.io/publication/conll-17-learning/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://desh2608.github.io/publication/conll-17-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Relation extraction for clinical text</title>
+      <link>https://desh2608.github.io/project/btp/</link>
+      <pubDate>Sun, 30 Apr 2017 17:00:24 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/project/btp/</guid>
+      <description>The objective of the project was to devise a method for obtaining structured triplets from unstructured clinical records such as journal articles, patient health records etc. Simplifying this objective, I was tasked with creating a neural technique which can classify relations existing between entities in a given sentence, an NLP task known as relation classification.
+The key insight is that convolutions can capture short-term phrases, while recurrence learns long-term dependencies. Combining both, we proposed the CRNN model which outperformed earlier single and double layer methods on two benchmark datasets: i2b2-2010 and DDI.</description>
+    </item>
+    
+    <item>
+      <title>Sptial Transformer Networks</title>
+      <link>https://desh2608.github.io/project/stn/</link>
+      <pubDate>Sun, 20 Nov 2016 17:00:42 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/project/stn/</guid>
+      <description>Jaderberg et al. proposed the Spatial Transformer Network in NIPS 2015 in order to improve the classification of transformed images (i.e., images with affine transformation). In this project, we achieved 2 objectives:
+ Improved the STN architecture by applying a recurrence in the outermost layer, i.e., transformed images are again fed into the module for further processing. Applied the network to egocentric image data to improve benchmark datasets like GTEA and Intel Egocentric Vision data.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Semantic parsing on Desh Raj</title>
+    <link>https://desh2608.github.io/tags/semantic-parsing/</link>
+    <description>Recent content in Semantic parsing on Desh Raj</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 08 Nov 2017 13:38:39 +0530</lastBuildDate>
+    
+	<atom:link href="https://desh2608.github.io/tags/semantic-parsing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Trends in Semantic Parsing - Part 2</title>
+      <link>https://desh2608.github.io/post/trends-in-semantic-parsing-2/</link>
+      <pubDate>Wed, 08 Nov 2017 13:38:39 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/trends-in-semantic-parsing-2/</guid>
+      <description>In Part 1 of this two-part series, I discussed some supervised approaches for the objective. In this part, we will look at some unsupervised or semi-supervised approaches, namely a Bayesian model, and transfer learning.
+An unsupervised Bayesian model This paper was published in ACL 20111, back when statistical methods were still being used for NLP tasks. But with the recent forays into generative models, I feel it has again become relevant to understand how such methods worked.</description>
+    </item>
+    
+    <item>
+      <title>Trends in Semantic Parsing - Part 1</title>
+      <link>https://desh2608.github.io/post/trends-in-semantic-parsing-1/</link>
+      <pubDate>Wed, 20 Sep 2017 10:03:22 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/trends-in-semantic-parsing-1/</guid>
+      <description>In this article, I will try to round up some (mostly neural) approaches for semantic parsing and semantic role labeling (SRL). This is not an extensive review of these methods, but just a collection of my notes on reading some recent research on the subject. However, I do believe it covers most of the latest trends as well as their limitations.
+But first, what is semantic parsing?
+“Semantic” refers to meaning, and “parsing” means resolving a sentence into its component parts.</description>
+    </item>
+    
+  </channel>
+</rss>

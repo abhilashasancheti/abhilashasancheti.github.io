@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Natural language generation on Desh Raj</title>
+    <link>https://desh2608.github.io/tags/natural-language-generation/</link>
+    <description>Recent content in Natural language generation on Desh Raj</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sat, 16 Sep 2017 09:15:44 +0530</lastBuildDate>
+    
+	<atom:link href="https://desh2608.github.io/tags/natural-language-generation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Metrics for NLG Evaluation</title>
+      <link>https://desh2608.github.io/post/metrics-for-nlg-evaluation/</link>
+      <pubDate>Sat, 16 Sep 2017 09:15:44 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/metrics-for-nlg-evaluation/</guid>
+      <description>Simple natural language processing tasks such as sentiment analysis, or even more complex ones like semantic parsing are easy to evaluate since the evaluation simply requires label matching. As such, metrics like F-score (which is the harmonic mean of precision and recall), or even accuracy in uniformly distributed data, are used for such tasks.
+Evaluating natural language generation systems is a much more complex task, however. And for this reason, a number of different metrics have been proposed for tasks such as machine translation or summarization.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 on Desh Raj</title>
+    <link>https://desh2608.github.io/publication_types/2/</link>
+    <description>Recent content in 2 on Desh Raj</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 15 Jan 2018 15:02:35 +0530</lastBuildDate>
+    
+	<atom:link href="https://desh2608.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Uncertain Fuzzy Self-organization based Clustering: Interval Type-2 Approach to Adaptive Resonance Theory</title>
+      <link>https://desh2608.github.io/publication/infosc-17-art/</link>
+      <pubDate>Mon, 15 Jan 2018 15:02:35 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/publication/infosc-17-art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis of data generated from multidimensional type-1 and type-2 fuzzy membership functions</title>
+      <link>https://desh2608.github.io/publication/tfs-16-analysis/</link>
+      <pubDate>Sat, 01 Apr 2017 15:02:18 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/publication/tfs-16-analysis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

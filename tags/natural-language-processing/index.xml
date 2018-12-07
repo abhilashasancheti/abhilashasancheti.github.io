@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Natural-language-processing on Desh Raj</title>
+    <link>https://desh2608.github.io/tags/natural-language-processing/</link>
+    <description>Recent content in Natural-language-processing on Desh Raj</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 03 Jul 2018 16:56:46 +0530</lastBuildDate>
+    
+	<atom:link href="https://desh2608.github.io/tags/natural-language-processing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Waldo: A system for optical character recognition</title>
+      <link>https://desh2608.github.io/project/waldo-ocr/</link>
+      <pubDate>Tue, 03 Jul 2018 16:56:46 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/project/waldo-ocr/</guid>
+      <description>It is an ongoing project under Prof. Daniel Povey to develop an Optical Character Recognition system that is robust on focused as well as incidental text. My contributions are:
+ Experimenting with the ICDAR 2015 Robust Reading Challenge dataset by modifying training script. A visualization and compression module for segmentation mask overlayed on images.  The system consists of a modified UNet first proposed in this paper.</description>
+    </item>
+    
+    <item>
+      <title>Transfer Learning in NLP</title>
+      <link>https://desh2608.github.io/post/transfer-learning-nlp/</link>
+      <pubDate>Fri, 15 Jun 2018 13:42:18 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/transfer-learning-nlp/</guid>
+      <description>Transfer learning is undoubtedly the new (well, relatively anyway) hot thing in deep learning right now. In vision, it has been in practice for some time now, with people using models trained to learn features from the huge ImageNet dataset, and then training it further on smaller data for different tasks. In NLP, though, transfer learning was mostly limited to the use of pretrained word embeddings (which, to be fair, improved baselines significantly).</description>
+    </item>
+    
+    <item>
+      <title>Irony detection in tweets</title>
+      <link>https://desh2608.github.io/project/irony-tweet/</link>
+      <pubDate>Tue, 20 Mar 2018 17:00:16 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/project/irony-tweet/</guid>
+      <description>The task was to recognize whether a tweet has irony or not - binary classification. In essence, we identified 2 aspects that were essential to identify irony in tweets:
+ Semantic interaction between text and hashtags, modeled using holographic embeddings (or circular cross-correlations). World knowledge about irony in text, obtained through transfer learning from DeepMoji.  We were able to obtain a validation accuracy of 69%, although the model performed poorly in the final test phase.</description>
+    </item>
+    
+    <item>
+      <title>Irony Detection in Tweets</title>
+      <link>https://desh2608.github.io/post/irony-detection-in-tweets/</link>
+      <pubDate>Wed, 07 Feb 2018 13:40:06 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/irony-detection-in-tweets/</guid>
+      <description>There was a SemEval 2018 Shared Task on “irony detection in tweets” that ended recently. As a fun personal project, I thought of giving it a shot, just to implement some new ideas. In this post, I will describe my approach for the problem along with some code.
+Problem description The task itself was divided into two subtasks:
+ Task A: Binary classification. Given a tweet, detect whether it has irony or not.</description>
+    </item>
+    
+    <item>
+      <title>Unsupervised Approaches for NMT</title>
+      <link>https://desh2608.github.io/post/unsupervised-approaches-for-nmt/</link>
+      <pubDate>Thu, 14 Dec 2017 13:39:30 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/unsupervised-approaches-for-nmt/</guid>
+      <description>Translation is one of those tasks in language where the arrival of deep learning systems, and in particular sequence-to-sequence, has been something like a boon. In less than 4 years since the first paper on Neural Machine Translation, software giants such as Google and Microsoft have already announced that their translation systems have almost completely shifted from statistical to neural. Gone are the days when researchers mulled over complex word and phrase alignment techniques, and yet fell short on several language combinations.</description>
+    </item>
+    
+    <item>
+      <title>Trends in Semantic Parsing - Part 2</title>
+      <link>https://desh2608.github.io/post/trends-in-semantic-parsing-2/</link>
+      <pubDate>Wed, 08 Nov 2017 13:38:39 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/trends-in-semantic-parsing-2/</guid>
+      <description>In Part 1 of this two-part series, I discussed some supervised approaches for the objective. In this part, we will look at some unsupervised or semi-supervised approaches, namely a Bayesian model, and transfer learning.
+An unsupervised Bayesian model This paper was published in ACL 20111, back when statistical methods were still being used for NLP tasks. But with the recent forays into generative models, I feel it has again become relevant to understand how such methods worked.</description>
+    </item>
+    
+    <item>
+      <title>The Last 3 Years in Text Classification</title>
+      <link>https://desh2608.github.io/post/last-3-years-in-text-classification/</link>
+      <pubDate>Mon, 02 Oct 2017 12:49:14 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/last-3-years-in-text-classification/</guid>
+      <description>While working on my undergrad thesis on relation classification of biomedical text using deep learning methods, I quickly hacked together models in Tensorflow that combined convolutional and recurrent layers in various combinations. While some of these “network architectures” worked superbly (even surpassing state-of-the-art results), I had no clue what was happening inside the model. To gain such an intuition, I read about 20 recent papers on text classification (starting with the first “CNN for sentence classification” paper by Yoon Kim) over the course of a week.</description>
+    </item>
+    
+    <item>
+      <title>Understanding Word Vectors</title>
+      <link>https://desh2608.github.io/post/understanding-word-vectors/</link>
+      <pubDate>Fri, 29 Sep 2017 11:12:55 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/understanding-word-vectors/</guid>
+      <description>This article is a formal representation of my understanding of vector semantics, from course notes and reading reference papers and chapters from Jurafsky’s SLP book. I will be talking about sparse and dense vector semantics, including SVD, skip-gram, and GloVe. In many places, I will try to explain the ideas in language rather than equations (but I’ll provide links to derivations and stuff wherever it is absolutely essential, which is actually everywhere!</description>
+    </item>
+    
+    <item>
+      <title>Trends in Semantic Parsing - Part 1</title>
+      <link>https://desh2608.github.io/post/trends-in-semantic-parsing-1/</link>
+      <pubDate>Wed, 20 Sep 2017 10:03:22 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/trends-in-semantic-parsing-1/</guid>
+      <description>In this article, I will try to round up some (mostly neural) approaches for semantic parsing and semantic role labeling (SRL). This is not an extensive review of these methods, but just a collection of my notes on reading some recent research on the subject. However, I do believe it covers most of the latest trends as well as their limitations.
+But first, what is semantic parsing?
+“Semantic” refers to meaning, and “parsing” means resolving a sentence into its component parts.</description>
+    </item>
+    
+    <item>
+      <title>Metrics for NLG Evaluation</title>
+      <link>https://desh2608.github.io/post/metrics-for-nlg-evaluation/</link>
+      <pubDate>Sat, 16 Sep 2017 09:15:44 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/metrics-for-nlg-evaluation/</guid>
+      <description>Simple natural language processing tasks such as sentiment analysis, or even more complex ones like semantic parsing are easy to evaluate since the evaluation simply requires label matching. As such, metrics like F-score (which is the harmonic mean of precision and recall), or even accuracy in uniformly distributed data, are used for such tasks.
+Evaluating natural language generation systems is a much more complex task, however. And for this reason, a number of different metrics have been proposed for tasks such as machine translation or summarization.</description>
+    </item>
+    
+    <item>
+      <title>Learning local and global context using a convolutional recurrent network model for relation classification in biomedical text</title>
+      <link>https://desh2608.github.io/publication/conll-17-learning/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://desh2608.github.io/publication/conll-17-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text readability analysis using language modeling</title>
+      <link>https://desh2608.github.io/project/readability/</link>
+      <pubDate>Sun, 30 Apr 2017 17:01:44 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/project/readability/</guid>
+      <description>We conjecture that predictability of a text is a viable metric of its readability. By using modern language models as predictors, we believe this metric may provide an automated, fine-grained measure of readability. It also provides a natural mechanism to combine scores from different language models, and hence the ability to generalize to a diverse set of texts. Individual language models encode the specific linguistic background that a reader may have, hence providing customized scores for each type of reader.</description>
+    </item>
+    
+    <item>
+      <title>Relation extraction for clinical text</title>
+      <link>https://desh2608.github.io/project/btp/</link>
+      <pubDate>Sun, 30 Apr 2017 17:00:24 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/project/btp/</guid>
+      <description>The objective of the project was to devise a method for obtaining structured triplets from unstructured clinical records such as journal articles, patient health records etc. Simplifying this objective, I was tasked with creating a neural technique which can classify relations existing between entities in a given sentence, an NLP task known as relation classification.
+The key insight is that convolutions can capture short-term phrases, while recurrence learns long-term dependencies. Combining both, we proposed the CRNN model which outperformed earlier single and double layer methods on two benchmark datasets: i2b2-2010 and DDI.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine-learning on Desh Raj</title>
+    <link>https://desh2608.github.io/tags/machine-learning/</link>
+    <description>Recent content in Machine-learning on Desh Raj</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 23 Apr 2018 13:41:31 +0530</lastBuildDate>
+    
+	<atom:link href="https://desh2608.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An Introduction to Speech Recognition using WFSTs</title>
+      <link>https://desh2608.github.io/post/intro-speech-recognition-wfst/</link>
+      <pubDate>Mon, 23 Apr 2018 13:41:31 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/intro-speech-recognition-wfst/</guid>
+      <description>Until now, all of my blog posts have been about deep learning methods or their application to NLP. Since the last couple of weeks, however, I have started learning about Automatic Speech Recognition (ASR)1. Therefore, I will also include speech-related articles in this publication now.
+The ASR logic is very simple (it’s just Bayes rule, like most other things in machine learning). Essentially, given a speech waveform, the objective is to transcribe it, i.</description>
+    </item>
+    
+    <item>
+      <title>Sparsity in Online Learning with Lasso Regularization</title>
+      <link>https://desh2608.github.io/post/sparse-online-learning-lasso-regularization/</link>
+      <pubDate>Sat, 24 Feb 2018 13:40:42 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/sparse-online-learning-lasso-regularization/</guid>
+      <description>Sparse vectors have become popular recently for 2 reasons:
+ Sparse matrices require much less storage since they can be stored using various space-saving methods. Sparse vectors are much more interpretable than dense vectors. For instance, the non-zero non-negative components of a sparse word vector may be taken to denote the weights for certain features. In contrast, there is no interpretation for a value like $-0.1347$.  Sparsity is often induced through the use of L1 (or Lasso) regularization.</description>
+    </item>
+    
+    <item>
+      <title>A Short Note on Stochastic Gradient Descent Algorithms</title>
+      <link>https://desh2608.github.io/post/short-note-sgd-algorithms/</link>
+      <pubDate>Thu, 08 Feb 2018 13:40:25 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/post/short-note-sgd-algorithms/</guid>
+      <description>I just finished reading Sebastian Ruder’s amazing article providing an overview of the most popular algorithms used for optimizing gradient descent. Here I’ll make very short notes on them primarily for purposes of recall.
+Momentum The update vector consists of another term which has the previous update vector (weighted by $\gamma$). This helps it to move faster downhill — like a ball.
+$$ v_t = \gamma v_{t-1} + \eta \nabla_{\theta}J(\theta) $$</description>
+    </item>
+    
+    <item>
+      <title>Uncertain Fuzzy Self-organization based Clustering: Interval Type-2 Approach to Adaptive Resonance Theory</title>
+      <link>https://desh2608.github.io/publication/infosc-17-art/</link>
+      <pubDate>Mon, 15 Jan 2018 15:02:35 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/publication/infosc-17-art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monitoring production line performance to reduce failures</title>
+      <link>https://desh2608.github.io/project/bosch/</link>
+      <pubDate>Fri, 31 Mar 2017 17:01:52 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/project/bosch/</guid>
+      <description>This project was first floated as a Kaggle competition, with the dataset made available by Bosch.
+In this work, we pose the task of fault detection as a binary classification problem. The features include numerical, categorical, and timestamp features, and hence warranty a combination of several techniques for efficiently solving the problem.
+First, a biased sampling method is used to reduce the effect of skewed data distribution. Thereafter, the categorical features are represented as 3 numerical features using sparse online classification algorithms: stochastic truncated gradient (STG), forward-backward splitting (FOBOS), and enhanced regularized dual averaging (ERDA).</description>
+    </item>
+    
+    <item>
+      <title>Fuzzy adaptive resonance theory (ART) clustering</title>
+      <link>https://desh2608.github.io/project/fuzzy-art/</link>
+      <pubDate>Wed, 03 Feb 2016 17:01:11 +0530</pubDate>
+      
+      <guid>https://desh2608.github.io/project/fuzzy-art/</guid>
+      <description> Worked on improving clustering performance of fuzzy ART algorithm by integrating Interval Type-2 approach into vigilance parameter computation. Obtained 5-10% better classification results compared to earlier ART methods, on several benchmark datasets like Iris, Wine, and real world image segmentation tasks.  </description>
+    </item>
+    
+  </channel>
+</rss>
