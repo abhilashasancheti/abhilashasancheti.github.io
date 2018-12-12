@@ -1,61 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Desh Raj</title>
-    <link>https://desh2608.github.io/publication/</link>
-    <description>Recent content in Publications on Desh Raj</description>
+    <title>Publications on Abhilasha Sancheti</title>
+    <link>https://abhilashasancheti.github.io/publication/</link>
+    <description>Recent content in Publications on Abhilasha Sancheti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://desh2608.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://abhilashasancheti.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Uncertain Fuzzy Self-organization based Clustering: Interval Type-2 Approach to Adaptive Resonance Theory</title>
-      <link>https://desh2608.github.io/publication/infosc-17-art/</link>
+      <title>Intent-Aware Contextual Recommendation System</title>
+      <link>https://abhilashasancheti.github.io/publication/intent-dsbda2017/</link>
       <pubDate>Mon, 15 Jan 2018 15:02:35 +0530</pubDate>
       
-      <guid>https://desh2608.github.io/publication/infosc-17-art/</guid>
+      <guid>https://abhilashasancheti.github.io/publication/intent-dsbda2017/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Learning local and global context using a convolutional recurrent network model for relation classification in biomedical text</title>
-      <link>https://desh2608.github.io/publication/conll-17-learning/</link>
+      <title>Harvesting Knowledge from Cultural Heritage Artifacts in Museums of India</title>
+      <link>https://abhilashasancheti.github.io/publication/cultkb-pakdd18/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://desh2608.github.io/publication/conll-17-learning/</guid>
+      <guid>https://abhilashasancheti.github.io/publication/cultkb-pakdd18/</guid>
       <description></description>
     </item>
     
-    <item>
-      <title>Principal component analysis approach in selecting type-1 and type-2 fuzzy membership functions for high-dimensional data</title>
-      <link>https://desh2608.github.io/publication/ifsa-17-pca/</link>
-      <pubDate>Wed, 28 Jun 2017 15:02:56 +0530</pubDate>
-      
-      <guid>https://desh2608.github.io/publication/ifsa-17-pca/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Analysis of data generated from multidimensional type-1 and type-2 fuzzy membership functions</title>
-      <link>https://desh2608.github.io/publication/tfs-16-analysis/</link>
-      <pubDate>Sat, 01 Apr 2017 15:02:18 +0530</pubDate>
-      
-      <guid>https://desh2608.github.io/publication/tfs-16-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visual analysis and representations of type-2 fuzzy membership functions</title>
-      <link>https://desh2608.github.io/publication/fuzz-16-visual/</link>
-      <pubDate>Sat, 30 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://desh2608.github.io/publication/fuzz-16-visual/</guid>
-      <description></description>
-    </item>
+  
     
   </channel>
 </rss>
