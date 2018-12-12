@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
   <meta name="generator" content="Hugo 0.41" />
-  <meta name="author" content="Desh Raj">
+  <meta name="author" content="Abhilasha Sancheti">
 
   
   
@@ -17,10 +17,25 @@
       
     
   
-  <meta name="description" content="Due to the numerous applications that utilize different types of fuzzy membership functions (MFs), it may sometimes be difficult to choose an appropriate MF for a particular application. In this paper, we establish preliminary guidelines to direct this selection by proposing a three-stage method. In the “forward” stage, different MFs such as crisp MFs, type-1 (T1) fuzzy MFs, and type-2 (T2) fuzzy MFs are generated from multidimensional data sets. Next, in the “reverse” stage, data is generated back from these MFs by considering different bin sizes. In doing so, various data sets may be generated for different applications which require fuzzy data. Finally, for the “similarity analysis” stage, we propose an iterative algorithm that makes use of the results of Wilcoxon Signed Rank (WSR) and Wilcoxon Rank Sum (WRS) tests to compare the original data and the generated data. From the results of these tests, recommendations concerning the suitability of MFs for a specific application may be suggested by observing the accuracy of representation and the requirements of the application. With this analysis, the objective is to gain insight on when T2 fuzzy sets may be considered to outperform T1 fuzzy sets, and vice versa. Several examples are provided using synthetic and real data to validate the iterative algorithm for data sets in various dimensions.">
+  <meta name="description" content="Recent efforts towards digitization of cultural heritage artifacts
+have resulted in a surge of information around these artifacts.
+However, the organization of these artifacts falls short with respect to accessing
+the facts across these entities. In this paper, we present a method
+to harvest the knowledge and form a knowledge graph from the digitized
+artifacts in the Museums of India repository via distant supervision to
+enable better accessibility of the facts and ability to extract new insights
+around the artifacts. Triples extracted from an open information extractor
+are first canonicalized to a standard taxonomy based on a metricbased
+scoring. Since a standard taxonomy is insufficient to capture all
+the relationships, we propose a sequential clustering based approach to
+add artifact specific relationships to the taxonomy (and to the knowledge
+graph). The graph is enriched by inferring missing facts based on a probabilistic
+soft logic approach seeded from a frequent item set framework.
+Human evaluation of the final knowledge graph showed an accuracy of
+75% on par with knowledge bases like DBpedia.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://desh2608.github.io/publication/tfs-16-analysis/">
+  <link rel="alternate" hreflang="en-us" href="https://abhilashasancheti.github.io/publication/cultkb-pakdd18/">
 
   
 
@@ -75,36 +90,52 @@
   
 
   
-  <link rel="alternate" href="https://desh2608.github.io/index.xml" type="application/rss+xml" title="Desh Raj">
-  <link rel="feed" href="https://desh2608.github.io/index.xml" type="application/rss+xml" title="Desh Raj">
+  <link rel="alternate" href="https://abhilashasancheti.github.io/index.xml" type="application/rss+xml" title="Abhilasha Sancheti">
+  <link rel="feed" href="https://abhilashasancheti.github.io/index.xml" type="application/rss+xml" title="Abhilasha Sancheti">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://desh2608.github.io/publication/tfs-16-analysis/">
+  <link rel="canonical" href="https://abhilashasancheti.github.io/publication/cultkb-pakdd18/">
 
-  <meta property="twitter:card" content="summary_large_image">
+  <!--<meta property="twitter:card" content="summary_large_image">
   
   <meta property="twitter:site" content="@https://twitter.com/raj_desh26">
-  <meta property="twitter:creator" content="@https://twitter.com/raj_desh26">
+  <meta property="twitter:creator" content="@https://twitter.com/raj_desh26">-->
   
-  <meta property="og:site_name" content="Desh Raj">
-  <meta property="og:url" content="https://desh2608.github.io/publication/tfs-16-analysis/">
-  <meta property="og:title" content="Analysis of data generated from multidimensional type-1 and type-2 fuzzy membership functions | Desh Raj">
-  <meta property="og:description" content="Due to the numerous applications that utilize different types of fuzzy membership functions (MFs), it may sometimes be difficult to choose an appropriate MF for a particular application. In this paper, we establish preliminary guidelines to direct this selection by proposing a three-stage method. In the “forward” stage, different MFs such as crisp MFs, type-1 (T1) fuzzy MFs, and type-2 (T2) fuzzy MFs are generated from multidimensional data sets. Next, in the “reverse” stage, data is generated back from these MFs by considering different bin sizes. In doing so, various data sets may be generated for different applications which require fuzzy data. Finally, for the “similarity analysis” stage, we propose an iterative algorithm that makes use of the results of Wilcoxon Signed Rank (WSR) and Wilcoxon Rank Sum (WRS) tests to compare the original data and the generated data. From the results of these tests, recommendations concerning the suitability of MFs for a specific application may be suggested by observing the accuracy of representation and the requirements of the application. With this analysis, the objective is to gain insight on when T2 fuzzy sets may be considered to outperform T1 fuzzy sets, and vice versa. Several examples are provided using synthetic and real data to validate the iterative algorithm for data sets in various dimensions."><meta property="og:image" content="https://desh2608.github.io/img/tfs-16-analysis.png">
+  <meta property="og:site_name" content="Abhilasha Sancheti">
+  <meta property="og:url" content="https://abhilashasancheti.github.io/publication/cultkb-pakdd18/">
+  <meta property="og:title" content="Harvesting Knowledge from Cultural Heritage Artifacts in Museums of India | Abhilasha Sancheti">
+  <meta property="og:description" content="Recent efforts towards digitization of cultural heritage artifacts
+have resulted in a surge of information around these artifacts.
+However, the organization of these artifacts falls short with respect to accessing
+the facts across these entities. In this paper, we present a method
+to harvest the knowledge and form a knowledge graph from the digitized
+artifacts in the Museums of India repository via distant supervision to
+enable better accessibility of the facts and ability to extract new insights
+around the artifacts. Triples extracted from an open information extractor
+are first canonicalized to a standard taxonomy based on a metricbased
+scoring. Since a standard taxonomy is insufficient to capture all
+the relationships, we propose a sequential clustering based approach to
+add artifact specific relationships to the taxonomy (and to the knowledge
+graph). The graph is enriched by inferring missing facts based on a probabilistic
+soft logic approach seeded from a frequent item set framework.
+Human evaluation of the final knowledge graph showed an accuracy of
+75% on par with knowledge bases like DBpedia."
+  "><meta property="og:image" content="https://abhilashasancheti.github.io/img/cultkb-pakdd18.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2017-04-01T15:02:18&#43;05:30">
+  <meta property="article:published_time" content="2017-08-01T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2017-04-01T15:02:18&#43;05:30">
-  
-
-  
+  <meta property="article:modified_time" content="2017-08-01T00:00:00&#43;00:00">
   
 
-  <title>Analysis of data generated from multidimensional type-1 and type-2 fuzzy membership functions | Desh Raj</title>
+  
+  
+
+  <title>Harvesting Knowledge from Cultural Heritage Artifacts in Museums of India | Abhilasha Sancheti</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -123,7 +154,7 @@
         <span class="icon-bar"></span>
       </button>
       
-      <a class="navbar-brand" href="/">Desh Raj</a>
+      <a class="navbar-brand" href="/">Abhilasha Sancheti</a>
     </div>
 
     
@@ -240,22 +271,22 @@
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
-<div class="article-header">
+<!--<div class="article-header">
   
   
-    <img src="/img/tfs-16-analysis.png" class="article-banner" itemprop="image">
+    <img src="/img/cultkb-pakdd18.png" class="article-banner" itemprop="image">
   
 
-  <span class="article-header-caption">Architecture of the algorithm</span>
-</div>
+  <span class="article-header-caption">Knowledge Base Creation</span>
+</div>-->
 
 
 
   <div class="article-container">
-    <h1 itemprop="name">Analysis of data generated from multidimensional type-1 and type-2 fuzzy membership functions</h1>
+    <h1 itemprop="name">Harvesting Knowledge from Cultural Heritage Artifacts in Museums of India</h1>
     <span class="pub-authors" itemprop="author">
       
-      Desh Raj, Aditya Gupta, Bhuvnesh Garg, Kenil Tanna, Frank Chung-Hoon Rhee
+      Abhilasha Sancheti, Paridhi Maheshwari, Rajat Chaturvedi, Anish V. Monsy, Tanya Goayal and Balaji Vasan Srinivasan
       
     </span>
     <span class="pull-right">
@@ -264,35 +295,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Analysis%20of%20data%20generated%20from%20multidimensional%20type-1%20and%20type-2%20fuzzy%20membership%20functions&amp;url=https%3a%2f%2fdesh2608.github.io%2fpublication%2ftfs-16-analysis%2f"
+         href="https://twitter.com/intent/tweet?text=Learning%20local%20and%20global%20context%20using%20a%20convolutional%20recurrent%20network%20model%20for%20relation%20classification%20in%20biomedical%20text&amp;url=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2fcultkb-pakdd18%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fdesh2608.github.io%2fpublication%2ftfs-16-analysis%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2fcultkb-pakdd18%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fdesh2608.github.io%2fpublication%2ftfs-16-analysis%2f&amp;title=Analysis%20of%20data%20generated%20from%20multidimensional%20type-1%20and%20type-2%20fuzzy%20membership%20functions"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2fcultkb-pakdd18%2f&amp;title=Learning%20local%20and%20global%20context%20using%20a%20convolutional%20recurrent%20network%20model%20for%20relation%20classification%20in%20biomedical%20text"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fdesh2608.github.io%2fpublication%2ftfs-16-analysis%2f&amp;title=Analysis%20of%20data%20generated%20from%20multidimensional%20type-1%20and%20type-2%20fuzzy%20membership%20functions"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2fcultkb-pakdd18%2f&amp;title=Learning%20local%20and%20global%20context%20using%20a%20convolutional%20recurrent%20network%20model%20for%20relation%20classification%20in%20biomedical%20text"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Analysis%20of%20data%20generated%20from%20multidimensional%20type-1%20and%20type-2%20fuzzy%20membership%20functions&amp;body=https%3a%2f%2fdesh2608.github.io%2fpublication%2ftfs-16-analysis%2f">
+         href="mailto:?subject=Learning%20local%20and%20global%20context%20using%20a%20convolutional%20recurrent%20network%20model%20for%20relation%20classification%20in%20biomedical%20text&amp;body=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2fcultkb-pakdd18%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -306,7 +337,22 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Due to the numerous applications that utilize different types of fuzzy membership functions (MFs), it may sometimes be difficult to choose an appropriate MF for a particular application. In this paper, we establish preliminary guidelines to direct this selection by proposing a three-stage method. In the “forward” stage, different MFs such as crisp MFs, type-1 (T1) fuzzy MFs, and type-2 (T2) fuzzy MFs are generated from multidimensional data sets. Next, in the “reverse” stage, data is generated back from these MFs by considering different bin sizes. In doing so, various data sets may be generated for different applications which require fuzzy data. Finally, for the “similarity analysis” stage, we propose an iterative algorithm that makes use of the results of Wilcoxon Signed Rank (WSR) and Wilcoxon Rank Sum (WRS) tests to compare the original data and the generated data. From the results of these tests, recommendations concerning the suitability of MFs for a specific application may be suggested by observing the accuracy of representation and the requirements of the application. With this analysis, the objective is to gain insight on when T2 fuzzy sets may be considered to outperform T1 fuzzy sets, and vice versa. Several examples are provided using synthetic and real data to validate the iterative algorithm for data sets in various dimensions.</p>
+    <p class="pub-abstract" itemprop="text">Recent efforts towards digitization of cultural heritage artifacts
+have resulted in a surge of information around these artifacts.
+However, the organization of these artifacts falls short with respect to accessing
+the facts across these entities. In this paper, we present a method
+to harvest the knowledge and form a knowledge graph from the digitized
+artifacts in the Museums of India repository via distant supervision to
+enable better accessibility of the facts and ability to extract new insights
+around the artifacts. Triples extracted from an open information extractor
+are first canonicalized to a standard taxonomy based on a metricbased
+scoring. Since a standard taxonomy is insufficient to capture all
+the relationships, we propose a sequential clustering based approach to
+add artifact specific relationships to the taxonomy (and to the knowledge
+graph). The graph is enriched by inferring missing facts based on a probabilistic
+soft logic approach seeded from a frequent item set framework.
+Human evaluation of the final knowledge graph showed an accuracy of
+75% on par with knowledge bases like DBpedia.</p>
     
 
     
@@ -317,8 +363,8 @@
           <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
           <div class="col-xs-12 col-sm-9">
             
-            <a href="https://desh2608.github.io/publication/#2">
-              Journal article
+            <a href="https://abhilashasancheti.github.io/publication/#1">
+              Conference paper
             </a>
             
           </div>
@@ -335,7 +381,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">IEEE Transactions on Fuzzy Systems</div>
+          <div class="col-xs-12 col-sm-9">In Phung D., Tseng V., Webb G., Ho B., Ganji M., Rashidi L. (eds) Advances in Knowledge Discovery and Data Mining. <em>Pacific-Asia Conference on Knowledge Discovery and Data Mining </em> (PAKDD) 2018</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -349,7 +395,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            April, 2017
+            June, 2018
           </div>
         </div>
       </div>
@@ -368,30 +414,10 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://desh2608.github.io/preprint/tfs-16-analysis.pdf" target="_blank" rel="noopener">
-  Preprint
-</a>
 
-
-<a class="btn btn-primary btn-outline" href="http://ieeexplore.ieee.org/document/7888454/" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://abhilashasancheti.github.io/pdf/cultkb-pakdd18.pdf" target="_blank" rel="noopener">
   PDF
 </a>
-
-
-
-
-
-
-
-
-  
-  <a class="btn btn-primary btn-outline" href="https://desh2608.github.io/project/fuzzy-wmbs/">
-    Project
-  </a>
-  
-
-
-
 
 
 
@@ -414,7 +440,9 @@
 
 <div class="article-tags">
   
-  <a class="btn btn-primary btn-outline" href="https://desh2608.github.io/tags/fuzzy/">fuzzy</a>
+  <a class="btn btn-primary btn-outline" href="https://abhilashasancheti.github.io/tags/deep-learning/machine-learning">machine learning</a>
+  
+  <a class="btn btn-primary btn-outline" href="https://abhilashasancheti.github.io/tags/natural-language-processing/">natural language processing</a>
   
 </div>
 
@@ -476,7 +504,7 @@
 
     
     
-    <script id="dsq-count-scr" src="//desh2608-github-io.disqus.com/count.js" async></script>
+    <script id="dsq-count-scr" src="//abhilashasancheti-github-io.disqus.com/count.js" async></script>
     
 
     

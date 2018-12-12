@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
   <meta name="generator" content="Hugo 0.41" />
-  <meta name="author" content="Desh Raj">
+  <meta name="author" content="Abhilasha Sancheti">
 
   
   
@@ -17,10 +17,42 @@
       
     
   
-  <meta name="description" content="The task of relation classification in the biomedical domain is complex due to the presence of samples obtained from heterogeneous sources such as research articles, discharge summaries, or electronic health records. It is also a constraint for classifiers which employ manual feature engineering. In this paper, we propose a convolutional recurrent neural network (CRNN) architecture that combines RNNs and CNNs in sequence to solve this problem. The rationale behind our approach is that CNNs can effectively identify coarse-grained local features in a sentence, while RNNs are more suited for long-term dependencies. We compare our CRNN model with several baselines on two biomedical datasets, namely the i2b22010 clinical relation extraction challenge dataset, and the SemEval-2013 DDI extraction dataset. We also evaluate an attentive pooling technique and report its performance in comparison with the conventional max pooling method. Our results indicate that the proposed model achieves state-of-the-art performance on both datasets.">
+  <meta name="description" content="Recommender systems take inputs from user history,
+use an internal ranking algorithm to generate results and
+possibly optimize this ranking based on feedback. However, often
+the recommender system is unaware of the actual intent of the
+user and simply provides recommendations dynamically without
+properly understanding the thought process of the user. An
+intelligent recommender system is not only useful for the user
+but also for businesses which want to learn the tendencies of their
+users. Finding out tendencies or intents of a user is a difficult
+problem to solve.
+Keeping this in mind, we sought out to create an intelligent
+system which will keep track of the user’s activity on a webapplication
+as well as determine the intent of the user in each
+session. We devised a way to encode the user’s activity through
+the sessions. Then, we have represented the information seen
+by the user in a high dimensional format which is reduced
+to lower dimensions using tensor factorization techniques. The
+aspect of intent awareness or intent scoring is dealt with at
+this stage. Finally, combining the user activity data with the
+contextual information gives the recommendation score. The
+final recommendations are then ranked using some filtering
+and collaborative recommendation techniques to show the top-k
+recommendations to the user. A provision for feedback is also
+envisioned in the current system which informs the model to
+update the various weights involved in the recommender system
+architecture. Our overall model aims to combine both frequencybased
+and context-based recommendation systems and quantify
+the intent of a user to provide better recommendations.
+We ran experiments on real-world timestamped user activity
+data, in the setting of recommending reports to the users of a
+business analytics tool/application and the results are better than
+the baselines.We also tuned certain aspects of our model to arrive
+at optimized results.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://desh2608.github.io/publication/conll-17-learning/">
+  <link rel="alternate" hreflang="en-us" href="https://abhilashasancheti.github.io/publication/intent-dsbda2017/">
 
   
 
@@ -75,36 +107,69 @@
   
 
   
-  <link rel="alternate" href="https://desh2608.github.io/index.xml" type="application/rss+xml" title="Desh Raj">
-  <link rel="feed" href="https://desh2608.github.io/index.xml" type="application/rss+xml" title="Desh Raj">
+  <link rel="alternate" href="https://abhilashasancheti.github.io/index.xml" type="application/rss+xml" title="Abhilasha Sancheti">
+  <link rel="feed" href="https://abhilashasancheti.github.io/index.xml" type="application/rss+xml" title="Abhilasha Sancheti">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://desh2608.github.io/publication/conll-17-learning/">
+  <link rel="canonical" href="https://abhilashasancheti.github.io/publication/intent-dsbda2017/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="twitter:site" content="@https://twitter.com/raj_desh26">
   <meta property="twitter:creator" content="@https://twitter.com/raj_desh26">
   
-  <meta property="og:site_name" content="Desh Raj">
-  <meta property="og:url" content="https://desh2608.github.io/publication/conll-17-learning/">
-  <meta property="og:title" content="Learning local and global context using a convolutional recurrent network model for relation classification in biomedical text | Desh Raj">
-  <meta property="og:description" content="The task of relation classification in the biomedical domain is complex due to the presence of samples obtained from heterogeneous sources such as research articles, discharge summaries, or electronic health records. It is also a constraint for classifiers which employ manual feature engineering. In this paper, we propose a convolutional recurrent neural network (CRNN) architecture that combines RNNs and CNNs in sequence to solve this problem. The rationale behind our approach is that CNNs can effectively identify coarse-grained local features in a sentence, while RNNs are more suited for long-term dependencies. We compare our CRNN model with several baselines on two biomedical datasets, namely the i2b22010 clinical relation extraction challenge dataset, and the SemEval-2013 DDI extraction dataset. We also evaluate an attentive pooling technique and report its performance in comparison with the conventional max pooling method. Our results indicate that the proposed model achieves state-of-the-art performance on both datasets."><meta property="og:image" content="https://desh2608.github.io/img/conll-17-learning.png">
+  <meta property="og:site_name" content="Abhilasha Sancheti">
+  <meta property="og:url" content="https://abhilashasancheti.github.io/publication/intent-dsbda2017/">
+  <meta property="og:title" content="Intent-Aware Contextual Recommendation System | Abhilasha Sancheti">
+  <meta property="og:description" content="Recommender systems take inputs from user history,
+use an internal ranking algorithm to generate results and
+possibly optimize this ranking based on feedback. However, often
+the recommender system is unaware of the actual intent of the
+user and simply provides recommendations dynamically without
+properly understanding the thought process of the user. An
+intelligent recommender system is not only useful for the user
+but also for businesses which want to learn the tendencies of their
+users. Finding out tendencies or intents of a user is a difficult
+problem to solve.
+Keeping this in mind, we sought out to create an intelligent
+system which will keep track of the user’s activity on a webapplication
+as well as determine the intent of the user in each
+session. We devised a way to encode the user’s activity through
+the sessions. Then, we have represented the information seen
+by the user in a high dimensional format which is reduced
+to lower dimensions using tensor factorization techniques. The
+aspect of intent awareness or intent scoring is dealt with at
+this stage. Finally, combining the user activity data with the
+contextual information gives the recommendation score. The
+final recommendations are then ranked using some filtering
+and collaborative recommendation techniques to show the top-k
+recommendations to the user. A provision for feedback is also
+envisioned in the current system which informs the model to
+update the various weights involved in the recommender system
+architecture. Our overall model aims to combine both frequencybased
+and context-based recommendation systems and quantify
+the intent of a user to provide better recommendations.
+We ran experiments on real-world timestamped user activity
+data, in the setting of recommending reports to the users of a
+business analytics tool/application and the results are better than
+the baselines.We also tuned certain aspects of our model to arrive
+at optimized results. ">
+<!--<meta property="og:image" content="https://abhilashasancheti.github.io/img/intent-dsbda2017.jpg">-->
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2017-08-01T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2016-07-30T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2017-08-01T00:00:00&#43;00:00">
-  
-
-  
+  <meta property="article:modified_time" content="2016-07-30T00:00:00&#43;00:00">
   
 
-  <title>Learning local and global context using a convolutional recurrent network model for relation classification in biomedical text | Desh Raj</title>
+  
+  
+
+  <title>Intent-Aware Contextual Recommendation System | Abhilasha Sancheti</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -123,7 +188,7 @@
         <span class="icon-bar"></span>
       </button>
       
-      <a class="navbar-brand" href="/">Desh Raj</a>
+      <a class="navbar-brand" href="/">Abhilasha Sancheti</a>
     </div>
 
     
@@ -178,15 +243,7 @@
         
         
           
-        
 
-        <li class="nav-item">
-          <a href="/#posts">
-            
-            <span>Posts</span>
-            
-          </a>
-        </li>
 
         
         
@@ -240,22 +297,22 @@
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
-<div class="article-header">
+<!--<div class="article-header">
   
   
-    <img src="/img/conll-17-learning.png" class="article-banner" itemprop="image">
+    <img src="/img/intent-dsbda2017.jpg" class="article-banner" itemprop="image">
   
 
-  <span class="article-header-caption">Architecture of the CRNN-Att model</span>
-</div>
+  <span class="article-header-caption">Contextual Recommendation System</span>
+</div>-->
 
 
 
   <div class="article-container">
-    <h1 itemprop="name">Learning local and global context using a convolutional recurrent network model for relation classification in biomedical text</h1>
+    <h1 itemprop="name">Intent-Aware Contextual Recommendation System</h1>
     <span class="pub-authors" itemprop="author">
       
-      Desh Raj, Sunil Kumar Sahu, Ashish Anand
+      Biswarup Bhattacharya, Iftikhar Ahamath Burhanuddin, Abhilasha Sancheti and Kushal Satya
       
     </span>
     <span class="pull-right">
@@ -264,35 +321,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Learning%20local%20and%20global%20context%20using%20a%20convolutional%20recurrent%20network%20model%20for%20relation%20classification%20in%20biomedical%20text&amp;url=https%3a%2f%2fdesh2608.github.io%2fpublication%2fconll-17-learning%2f"
+         href="https://twitter.com/intent/tweet?text=Visual%20analysis%20and%20representations%20of%20type-2%20fuzzy%20membership%20functions&amp;url=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2fintent-dsbda2017%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fdesh2608.github.io%2fpublication%2fconll-17-learning%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2fintent-dsbda2017%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fdesh2608.github.io%2fpublication%2fconll-17-learning%2f&amp;title=Learning%20local%20and%20global%20context%20using%20a%20convolutional%20recurrent%20network%20model%20for%20relation%20classification%20in%20biomedical%20text"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2fintent-dsbda2017%2f&amp;title=Visual%20analysis%20and%20representations%20of%20type-2%20fuzzy%20membership%20functions"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fdesh2608.github.io%2fpublication%2fconll-17-learning%2f&amp;title=Learning%20local%20and%20global%20context%20using%20a%20convolutional%20recurrent%20network%20model%20for%20relation%20classification%20in%20biomedical%20text"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2fintent-dsbda2017%2f&amp;title=Visual%20analysis%20and%20representations%20of%20type-2%20fuzzy%20membership%20functions"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Learning%20local%20and%20global%20context%20using%20a%20convolutional%20recurrent%20network%20model%20for%20relation%20classification%20in%20biomedical%20text&amp;body=https%3a%2f%2fdesh2608.github.io%2fpublication%2fconll-17-learning%2f">
+         href="mailto:?subject=Visual%20analysis%20and%20representations%20of%20type-2%20fuzzy%20membership%20functions&amp;body=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2fintent-dsbda2017%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -306,7 +363,39 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">The task of relation classification in the biomedical domain is complex due to the presence of samples obtained from heterogeneous sources such as research articles, discharge summaries, or electronic health records. It is also a constraint for classifiers which employ manual feature engineering. In this paper, we propose a convolutional recurrent neural network (CRNN) architecture that combines RNNs and CNNs in sequence to solve this problem. The rationale behind our approach is that CNNs can effectively identify coarse-grained local features in a sentence, while RNNs are more suited for long-term dependencies. We compare our CRNN model with several baselines on two biomedical datasets, namely the i2b22010 clinical relation extraction challenge dataset, and the SemEval-2013 DDI extraction dataset. We also evaluate an attentive pooling technique and report its performance in comparison with the conventional max pooling method. Our results indicate that the proposed model achieves state-of-the-art performance on both datasets.</p>
+    <p class="pub-abstract" itemprop="text">Recommender systems take inputs from user history,
+use an internal ranking algorithm to generate results and
+possibly optimize this ranking based on feedback. However, often
+the recommender system is unaware of the actual intent of the
+user and simply provides recommendations dynamically without
+properly understanding the thought process of the user. An
+intelligent recommender system is not only useful for the user
+but also for businesses which want to learn the tendencies of their
+users. Finding out tendencies or intents of a user is a difficult
+problem to solve.
+Keeping this in mind, we sought out to create an intelligent
+system which will keep track of the user’s activity on a webapplication
+as well as determine the intent of the user in each
+session. We devised a way to encode the user’s activity through
+the sessions. Then, we have represented the information seen
+by the user in a high dimensional format which is reduced
+to lower dimensions using tensor factorization techniques. The
+aspect of intent awareness or intent scoring is dealt with at
+this stage. Finally, combining the user activity data with the
+contextual information gives the recommendation score. The
+final recommendations are then ranked using some filtering
+and collaborative recommendation techniques to show the top-k
+recommendations to the user. A provision for feedback is also
+envisioned in the current system which informs the model to
+update the various weights involved in the recommender system
+architecture. Our overall model aims to combine both frequencybased
+and context-based recommendation systems and quantify
+the intent of a user to provide better recommendations.
+We ran experiments on real-world timestamped user activity
+data, in the setting of recommending reports to the users of a
+business analytics tool/application and the results are better than
+the baselines.We also tuned certain aspects of our model to arrive
+at optimized results.</p>
     
 
     
@@ -317,7 +406,7 @@
           <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
           <div class="col-xs-12 col-sm-9">
             
-            <a href="https://desh2608.github.io/publication/#1">
+            <a href="https://abhilashasancheti.github.io/publication/#1">
               Conference paper
             </a>
             
@@ -335,7 +424,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">In the SIGNLL <em>Conference on Computational Natural Language Learning</em> (CoNLL) 2017</div>
+          <div class="col-xs-12 col-sm-9">In Data Mining Workshops (ICDMW), 17th IEEE <em>International Conference on Data Mining (ICDM)</em> 2017. </div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -349,7 +438,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            August, 2017
+            Nov, 2017
           </div>
         </div>
       </div>
@@ -369,7 +458,8 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://desh2608.github.io/pdf/conll-17-learning.pdf" target="_blank" rel="noopener">
+
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/pdf/1711.10558.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -377,25 +467,18 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://github.com/desh2608/crnn-relation-classification" target="_blank" rel="noopener">
-  Code
-</a>
 
 
 
 
   
-  <a class="btn btn-primary btn-outline" href="https://desh2608.github.io/project/btp/">
-    Project
-  </a>
-  
 
 
 
-<a class="btn btn-primary btn-outline" href="https://desh2608.github.io/poster/conll-17-poster.pdf" target="_blank" rel="noopener">
-  Poster
+
+<a class="btn btn-primary btn-outline" href="https://abhilashasancheti.github.io/ppt/intent-dsbda2017.pdf" target="_blank" rel="noopener">
+  Slides
 </a>
-
 
 
 
@@ -418,9 +501,7 @@
 
 <div class="article-tags">
   
-  <a class="btn btn-primary btn-outline" href="https://desh2608.github.io/tags/deep-learning/">deep learning</a>
-  
-  <a class="btn btn-primary btn-outline" href="https://desh2608.github.io/tags/natural-language-processing/">natural language processing</a>
+  <a class="btn btn-primary btn-outline" href="https://abhilashasancheti.github.io/tags/machine-learning/">machine-learning</a>
   
 </div>
 
@@ -482,7 +563,7 @@
 
     
     
-    <script id="dsq-count-scr" src="//desh2608-github-io.disqus.com/count.js" async></script>
+    <script id="dsq-count-scr" src="//abhilashasancheti-github-io.disqus.com/count.js" async></script>
     
 
     
