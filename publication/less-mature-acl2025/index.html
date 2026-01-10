@@ -17,10 +17,10 @@
       
     
   
-  <meta name="description" content="We study the presence of heteronormative biases or prejudice against inter-racial marriages in large language models by performing controlled name-replacement experiments for the task of relationship prediction. We show that models are less likely to predict romantic relationships for (a) same-gender character pairs than different-gender pairs; and (b) inter/intra-racial character pairs involving Asian names as compared to Black, Hispanic, or White names. We closely examine the contextualized embed012 dings of first names and find that gender for Asian names is less discernable than non-Asian names. Additionally, we delve into the social implications of our findings, underlining the need to prioritize the development of inclusive and equitable technology.">
+  <meta name="description" content="This work investigates sentence-level models (i.e., models that operate at the sentence-level) to study how sentence representations from various encoders influence downstream task performance, and which syntactic, semantic, and discourse-level properties are essential for strong performance. Our experiments encompass encoders with diverse training regimes and pretraining domains, as well as various pooling strategies applied to multi-sentence input tasks (including sentence ordering, sentiment classification, and natural language inference) requiring coarse-to-fine-grained reasoning. We find that “less mature” representations (e.g., mean-pooled representations from BERT’s first or last layer, or representations from encoders with limited fine-tuning) exhibit greater generalizability and adaptability to downstream tasks compared to representations from extensively fine-tuned models (e.g., SBERT or SimCSE). These findings are consistent across different pretraining seed initializations for BERT. Our probing analysis reveals that syntactic and discourse-level properties are stronger indicators of downstream performance than MTEB scores or decodability. Furthermore, the data and time efficiency of sentence-level models, often outperforming token-level models, underscores their potential for future research.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://abhilashasancheti.github.io/publication/bias-emnlp2024/">
+  <link rel="alternate" hreflang="en-us" href="https://abhilashasancheti.github.io/publication/less-mature-acl2025/">
 
   
 
@@ -85,13 +85,13 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://abhilashasancheti.github.io/publication/bias-emnlp2024/">
+  <link rel="canonical" href="https://abhilashasancheti.github.io/publication/less-mature-acl2025/">
 
   
   <meta property="og:site_name" content="Abhilasha Sancheti">
-  <meta property="og:url" content="https://abhilashasancheti.github.io/publication/bias-emnlp2024/">
-  <meta property="og:title" content="On the Influence of Gender and Race in Romantic Relationship Prediction from Large Language Models | Abhilasha Sancheti">
-  <meta property="og:description" content="We study the presence of heteronormative biases or prejudice against inter-racial marriages in large language models by performing controlled name-replacement experiments for the task of relationship prediction. We show that models are less likely to predict romantic relationships for (a) same-gender character pairs than different-gender pairs; and (b) inter/intra-racial character pairs involving Asian names as compared to Black, Hispanic, or White names. We closely examine the contextualized embed012 dings of first names and find that gender for Asian names is less discernable than non-Asian names. Additionally, we delve into the social implications of our findings, underlining the need to prioritize the development of inclusive and equitable technology.">
+  <meta property="og:url" content="https://abhilashasancheti.github.io/publication/less-mature-acl2025/">
+  <meta property="og:title" content="Less Mature is More Adaptable for Sentence-level Language Modeling | Abhilasha Sancheti">
+  <meta property="og:description" content="This work investigates sentence-level models (i.e., models that operate at the sentence-level) to study how sentence representations from various encoders influence downstream task performance, and which syntactic, semantic, and discourse-level properties are essential for strong performance. Our experiments encompass encoders with diverse training regimes and pretraining domains, as well as various pooling strategies applied to multi-sentence input tasks (including sentence ordering, sentiment classification, and natural language inference) requiring coarse-to-fine-grained reasoning. We find that “less mature” representations (e.g., mean-pooled representations from BERT’s first or last layer, or representations from encoders with limited fine-tuning) exhibit greater generalizability and adaptability to downstream tasks compared to representations from extensively fine-tuned models (e.g., SBERT or SimCSE). These findings are consistent across different pretraining seed initializations for BERT. Our probing analysis reveals that syntactic and discourse-level properties are stronger indicators of downstream performance than MTEB scores or decodability. Furthermore, the data and time efficiency of sentence-level models, often outperforming token-level models, underscores their potential for future research.">
 
   <meta property="og:locale" content="en-us">
   
@@ -103,7 +103,7 @@
   
   
 
-  <title>On the Influence of Gender and Race in Romantic Relationship Prediction from Large Language Models | Abhilasha Sancheti</title>
+  <title>Less Mature is More Adaptable for Sentence-level Language Modeling | Abhilasha Sancheti</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -193,10 +193,10 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">On the Influence of Gender and Race in Romantic Relationship Prediction from Large Language Models</h1>
+    <h1 itemprop="name">Less Mature is More Adaptable for Sentence-level Language Modeling</h1>
     <span class="pub-authors" itemprop="author">
       
-      Abhilasha Sancheti, Haozhe An, and Rachel Rudinger
+      Abhilasha Sancheti, David Dale, Artyom Kozhevnikov, and Maha Elbayad
       
     </span>
     <span class="pull-right">
@@ -206,14 +206,14 @@
     
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2fbias-emnlp2024%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2fless-mature-acl2025%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2fbias-emnlp2024%2f&amp;title=Visual%20analysis%20and%20representations%20of%20type-2%20fuzzy%20membership%20functions"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2fless-mature-acl2025%2f&amp;title=Visual%20analysis%20and%20representations%20of%20type-2%20fuzzy%20membership%20functions"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
@@ -221,7 +221,7 @@
     
     <li>
       <a class="email"
-         href="mailto:?subject=Visual%20analysis%20and%20representations%20of%20type-2%20fuzzy%20membership%20functions&amp;body=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2fbias-emnlp2024%2f">
+         href="mailto:?subject=Visual%20analysis%20and%20representations%20of%20type-2%20fuzzy%20membership%20functions&amp;body=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2fless-mature-acl2025%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -235,7 +235,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">We study the presence of heteronormative biases or prejudice against inter-racial marriages in large language models by performing controlled name-replacement experiments for the task of relationship prediction. We show that models are less likely to predict romantic relationships for (a) same-gender character pairs than different-gender pairs; and (b) inter/intra-racial character pairs involving Asian names as compared to Black, Hispanic, or White names. We closely examine the contextualized embed012 dings of first names and find that gender for Asian names is less discernable than non-Asian names. Additionally, we delve into the social implications of our findings, underlining the need to prioritize the development of inclusive and equitable technology.</p>
+    <p class="pub-abstract" itemprop="text">This work investigates sentence-level models (i.e., models that operate at the sentence-level) to study how sentence representations from various encoders influence downstream task performance, and which syntactic, semantic, and discourse-level properties are essential for strong performance. Our experiments encompass encoders with diverse training regimes and pretraining domains, as well as various pooling strategies applied to multi-sentence input tasks (including sentence ordering, sentiment classification, and natural language inference) requiring coarse-to-fine-grained reasoning. We find that “less mature” representations (e.g., mean-pooled representations from BERT’s first or last layer, or representations from encoders with limited fine-tuning) exhibit greater generalizability and adaptability to downstream tasks compared to representations from extensively fine-tuned models (e.g., SBERT or SimCSE). These findings are consistent across different pretraining seed initializations for BERT. Our probing analysis reveals that syntactic and discourse-level properties are stronger indicators of downstream performance than MTEB scores or decodability. Furthermore, the data and time efficiency of sentence-level models, often outperforming token-level models, underscores their potential for future research.</p>
     
 
     
@@ -316,7 +316,7 @@
 
 
 
-<!-- <a class="btn btn-primary btn-outline" href="https://abhilashasancheti.github.io/ppt/bias-emnlp2024.pdf" target="_blank" rel="noopener">
+<!-- <a class="btn btn-primary btn-outline" href="https://abhilashasancheti.github.io/ppt/less-mature-acl2025.pdf" target="_blank" rel="noopener">
   Poster
 </a> -->
 

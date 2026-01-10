@@ -17,10 +17,10 @@
       
     
   
-  <meta name="description" content="We study the presence of heteronormative biases or prejudice against inter-racial marriages in large language models by performing controlled name-replacement experiments for the task of relationship prediction. We show that models are less likely to predict romantic relationships for (a) same-gender character pairs than different-gender pairs; and (b) inter/intra-racial character pairs involving Asian names as compared to Black, Hispanic, or White names. We closely examine the contextualized embed012 dings of first names and find that gender for Asian names is less discernable than non-Asian names. Additionally, we delve into the social implications of our findings, underlining the need to prioritize the development of inclusive and equitable technology.">
+  <meta name="description" content="This work aims to assess the zero-shot social reasoning capabilities of LLMs by proposing various strategies based on the granularity of information used to track the fine-grained evolution in the relationship between characters in a book. Without gold annotations, we thoroughly analyze the agreements between predictions from multiple LLMs and manually examine their consensus at a local and global level via the task of trope prediction. Our findings reveal low-to-moderate agreement among LLMs and humans, reflecting the complexity of the task. Analysis shows that LLMs are sensitive to subtle contextual changes and often rely on surface-level cues. Humans, too, may interpret relationships differently, leading to disagreements in annotations.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://abhilashasancheti.github.io/publication/bias-emnlp2024/">
+  <link rel="alternate" hreflang="en-us" href="https://abhilashasancheti.github.io/publication/relationship-wnu2025/">
 
   
 
@@ -85,13 +85,13 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://abhilashasancheti.github.io/publication/bias-emnlp2024/">
+  <link rel="canonical" href="https://abhilashasancheti.github.io/publication/relationship-wnu2025/">
 
   
   <meta property="og:site_name" content="Abhilasha Sancheti">
-  <meta property="og:url" content="https://abhilashasancheti.github.io/publication/bias-emnlp2024/">
-  <meta property="og:title" content="On the Influence of Gender and Race in Romantic Relationship Prediction from Large Language Models | Abhilasha Sancheti">
-  <meta property="og:description" content="We study the presence of heteronormative biases or prejudice against inter-racial marriages in large language models by performing controlled name-replacement experiments for the task of relationship prediction. We show that models are less likely to predict romantic relationships for (a) same-gender character pairs than different-gender pairs; and (b) inter/intra-racial character pairs involving Asian names as compared to Black, Hispanic, or White names. We closely examine the contextualized embed012 dings of first names and find that gender for Asian names is less discernable than non-Asian names. Additionally, we delve into the social implications of our findings, underlining the need to prioritize the development of inclusive and equitable technology.">
+  <meta property="og:url" content="https://abhilashasancheti.github.io/publication/relationship-wnu2025/">
+  <meta property="og:title" content="Tracking Evolving Relationship Between Characters in Books in the Era of Large Language Models | Abhilasha Sancheti">
+  <meta property="og:description" content="This work aims to assess the zero-shot social reasoning capabilities of LLMs by proposing various strategies based on the granularity of information used to track the fine-grained evolution in the relationship between characters in a book. Without gold annotations, we thoroughly analyze the agreements between predictions from multiple LLMs and manually examine their consensus at a local and global level via the task of trope prediction. Our findings reveal low-to-moderate agreement among LLMs and humans, reflecting the complexity of the task. Analysis shows that LLMs are sensitive to subtle contextual changes and often rely on surface-level cues. Humans, too, may interpret relationships differently, leading to disagreements in annotations.">
 
   <meta property="og:locale" content="en-us">
   
@@ -103,7 +103,7 @@
   
   
 
-  <title>On the Influence of Gender and Race in Romantic Relationship Prediction from Large Language Models | Abhilasha Sancheti</title>
+  <title>Tracking Evolving Relationship Between Characters in Books in the Era of Large Language Models | Abhilasha Sancheti</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -193,10 +193,10 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">On the Influence of Gender and Race in Romantic Relationship Prediction from Large Language Models</h1>
+    <h1 itemprop="name">Tracking Evolving Relationship Between Characters in Books in the Era of Large Language Models</h1>
     <span class="pub-authors" itemprop="author">
       
-      Abhilasha Sancheti, Haozhe An, and Rachel Rudinger
+      Abhilasha Sancheti, and Rachel Rudinger
       
     </span>
     <span class="pull-right">
@@ -206,14 +206,14 @@
     
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2fbias-emnlp2024%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2frelationship-wnu2025%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2fbias-emnlp2024%2f&amp;title=Visual%20analysis%20and%20representations%20of%20type-2%20fuzzy%20membership%20functions"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2frelationship-wnu2025%2f&amp;title=Visual%20analysis%20and%20representations%20of%20type-2%20fuzzy%20membership%20functions"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
@@ -221,7 +221,7 @@
     
     <li>
       <a class="email"
-         href="mailto:?subject=Visual%20analysis%20and%20representations%20of%20type-2%20fuzzy%20membership%20functions&amp;body=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2fbias-emnlp2024%2f">
+         href="mailto:?subject=Visual%20analysis%20and%20representations%20of%20type-2%20fuzzy%20membership%20functions&amp;body=https%3a%2f%2fabhilashasancheti.github.io%2fpublication%2frelationship-wnu2025%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -235,7 +235,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">We study the presence of heteronormative biases or prejudice against inter-racial marriages in large language models by performing controlled name-replacement experiments for the task of relationship prediction. We show that models are less likely to predict romantic relationships for (a) same-gender character pairs than different-gender pairs; and (b) inter/intra-racial character pairs involving Asian names as compared to Black, Hispanic, or White names. We closely examine the contextualized embed012 dings of first names and find that gender for Asian names is less discernable than non-Asian names. Additionally, we delve into the social implications of our findings, underlining the need to prioritize the development of inclusive and equitable technology.</p>
+    <p class="pub-abstract" itemprop="text">This work aims to assess the zero-shot social reasoning capabilities of LLMs by proposing various strategies based on the granularity of information used to track the fine-grained evolution in the relationship between characters in a book. Without gold annotations, we thoroughly analyze the agreements between predictions from multiple LLMs and manually examine their consensus at a local and global level via the task of trope prediction. Our findings reveal low-to-moderate agreement among LLMs and humans, reflecting the complexity of the task. Analysis shows that LLMs are sensitive to subtle contextual changes and often rely on surface-level cues. Humans, too, may interpret relationships differently, leading to disagreements in annotations.</p>
     
 
     
@@ -316,7 +316,7 @@
 
 
 
-<!-- <a class="btn btn-primary btn-outline" href="https://abhilashasancheti.github.io/ppt/bias-emnlp2024.pdf" target="_blank" rel="noopener">
+<!-- <a class="btn btn-primary btn-outline" href="https://abhilashasancheti.github.io/ppt/relationship-wnu2025.pdf" target="_blank" rel="noopener">
   Poster
 </a> -->
 
